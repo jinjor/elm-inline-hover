@@ -28,6 +28,7 @@ hoverStyle =
   , ("---", "")
   , ("=", "")
   , ("font-family", "\"游ゴシック\", \"Yu Gothic\", sans-serif;")
+  , ("color", "'")
   , ("color", "\'")
   ]
 

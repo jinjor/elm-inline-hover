@@ -1,5 +1,8 @@
 # elm-inline-hover
 
+
+[![Build Status](https://travis-ci.org/jinjor/elm-inline-hover.svg)](https://travis-ci.org/jinjor/elm-inline-hover)
+
 An utility for using :hover by inline style.
 
 
@@ -18,4 +21,9 @@ styles =
   [("background", "#abd")]
 ```
 
-That's it :)
+That's it!
+
+
+## LICENSE
+
+BSD3
