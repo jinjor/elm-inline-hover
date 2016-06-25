@@ -31,10 +31,6 @@ hover
   -> Html msg
 hover styles tag attrs children =
   let
-    s =
-      String.join ";" <|
-        List.map (\(key, value) -> key ++ ":" ++ value ++ " !important") styles
-
     enter =
       attribute "onmouseenter" <| String.join ";" <| List.map enterEach styles
 
