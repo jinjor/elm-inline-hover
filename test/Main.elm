@@ -19,7 +19,19 @@ view model =
     ]
 
 hoverStyle =
-  [("background-color", "#abd")]
+  [ ("background-color", "#abd")
+  , ("font-weight", "bold")
+  , ("undefined-style", "foo")
+  , ("123", "456")
+  , ("'", "")
+  , ("\"", "")
+  , ("---", "")
+  , ("=", "")
+  , ("font-family", "\"游ゴシック\", \"Yu Gothic\", sans-serif;")
+  , ("color", "\'")
+  ]
 
 normalStyle =
-  [("background-color", "#edc")]
+  [ ("background-color", "#edc")
+  , ("color", "green")
+  ]
