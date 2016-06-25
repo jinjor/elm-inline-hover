@@ -1,6 +1,5 @@
 # elm-inline-hover
 
-
 [![Build Status](https://travis-ci.org/jinjor/elm-inline-hover.svg)](https://travis-ci.org/jinjor/elm-inline-hover)
 
 An utility for using :hover by inline style.
@@ -24,6 +23,6 @@ styles =
 That's it!
 
 
-## LICENSE
+## License
 
 BSD3
