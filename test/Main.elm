@@ -5,7 +5,7 @@ import Html.Events exposing (..)
 import InlineHover exposing (hover)
 
 main =
-  beginnerProgram { model = 0, update = update, view = view}
+  beginnerProgram { model = 0, update = update, view = view }
 
 update n _ =
   n

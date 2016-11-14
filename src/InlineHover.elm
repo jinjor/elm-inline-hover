@@ -7,7 +7,6 @@ module InlineHover exposing (hover)
 
 import Html exposing (text, node, Html, Attribute)
 import Html.Attributes exposing (attribute)
-import String
 import Char
 
 
@@ -42,7 +41,7 @@ hover styles tag attrs children =
 
   in
     tag
-      ([ enter, leave] ++ attrs)
+      (enter :: leave :: attrs)
       children
 
 
@@ -50,7 +49,7 @@ toCamelCase : String -> String
 toCamelCase s =
   String.fromList <|
   List.reverse <|
-  snd <|
+  Tuple.second <|
     List.foldl (\c (cap, memo) ->
       if c == '-' then
         (True, memo)
@@ -76,6 +75,7 @@ isValidChars list =
         isValidChars tail
       else
         False
+
     _ ->
       True
 
