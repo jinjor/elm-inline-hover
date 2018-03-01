@@ -10,6 +10,8 @@ An utility for using :hover by inline style.
 Just insert `hover [("whatever", "styles"), ("you", "like")]` before Html nodes.
 
 ```elm
+import InlineHover exposing(hover)
+
 main =
   ul []
     [ hover styles li [] [ text "Hello" ]
