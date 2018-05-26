@@ -1,3 +1,13 @@
+# DEPRECATED
+
+This library is only available for Elm 0.18 or less.
+
+I'm not going to port this library for 0.19 for some reasons.
+
+- The implementation used in this library is not allowed in 0.19 world.
+- This is a kind of hack! (not good for Elm ecosystem in the long run)
+- I'm not using this now, just using CSS.
+
 # elm-inline-hover
 
 [![Build Status](https://travis-ci.org/jinjor/elm-inline-hover.svg)](https://travis-ci.org/jinjor/elm-inline-hover)
